@@ -89,19 +89,19 @@ common:
   - type: SourceCode
     name: promptfoo (CLI + library)
     url: https://github.com/promptfoo/promptfoo
-  - type: SDK
+  - type: SDKs
     name: Python wrapper for the promptfoo CLI
     url: https://github.com/promptfoo/promptfoo-python
-  - type: Tool
+  - type: Tools
     name: Promptfoo GitHub Action
     url: https://github.com/promptfoo/promptfoo-action
-  - type: Tool
+  - type: Tools
     name: ModelAudit — ML model security scanner
     url: https://github.com/promptfoo/modelaudit
-  - type: Tool
+  - type: Tools
     name: MCP Agent Provider (custom provider for testing MCP servers)
     url: https://github.com/promptfoo/mcp-agent-provider
-  - type: Tool
+  - type: Tools
     name: evil-mcp-server (red-team MCP target)
     url: https://github.com/promptfoo/evil-mcp-server
   - type: CodeExamples
@@ -128,7 +128,7 @@ common:
   - type: License
     name: MIT License
     url: https://github.com/promptfoo/promptfoo/blob/main/LICENSE
-  - type: Forum
+  - type: Forums
     name: Discord community
     url: https://discord.gg/promptfoo
   - type: Twitter
@@ -154,15 +154,15 @@ common:
       - >-
         `promptfoo generate` — synthesize datasets, red-team tests, and
         assertions
-      - `promptfoo optimize` — improve prompts against a target provider
-      - `promptfoo scan-model` — security-scan ML model files (ModelAudit)
+      - "`promptfoo optimize` — improve prompts against a target provider"
+      - "`promptfoo scan-model` — security-scan ML model files (ModelAudit)"
       - >-
         `promptfoo code-scans` — scan code changes for LLM security
         vulnerabilities in IDEs and CI/CD
       - >-
         `promptfoo mcp` — expose promptfoo tools as a Model Context Protocol
         server
-      - `promptfoo retry`, `list`, `export`, `import`, `validate`, `debug`, `cache`, `auth`
+      - "`promptfoo retry`, `list`, `export`, `import`, `validate`, `debug`, `cache`, `auth`"
       - >-
         Assertions: rule-based (equals, contains, regex, javascript, python,
         cost, latency) and model-graded (llm-rubric, classifier, factuality,
