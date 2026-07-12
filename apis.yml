@@ -53,6 +53,10 @@ modified: '2026-05-25'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: TrustCenter
+    url: security/prompt-foo-trust-center.yml
+  - type: DomainSecurity
+    url: security/prompt-foo-domain-security.yml
   - type: Website
     url: https://www.promptfoo.dev
   - type: Portal
